@@ -1,0 +1,65 @@
+*{
+    font-family: arial, sans-serif;
+    font-size: 10pt;
+}
+
+h1,h2,h3 {
+    margin-block-start: 0.4em;
+    margin-block-end: 0.4em;
+    font-size: 200%;
+}
+
+body {
+  margin-left: .5in;
+  margin-top: .5in;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 70%;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+
+  span.developer  {
+    font-size: 50%;
+    color: green;
+  }
+
+  td.number {
+    text-align: right;
+  }
+
+  .number{
+    width: .65in;
+    text-align: right;
+  }
+
+  input[type=number], input[type=select], select {
+    background-color: silver;
+    height: .25in;
+    margin-left: .02in;
+  }
+
+  tr.high-light, tr.high-light-red{
+    color: green;
+    font-weight: bolder;
+  }
+
+  tr.high-light-red {
+    color: red;
+  }
+
+  label {
+    color: blue;
+    font-weight: bolder;
+  }

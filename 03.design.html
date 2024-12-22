@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="format.css">
+<link rel="stylesheet" href="format-custom.css">
+</head>
+<body>
+<h2>Stock Rankings<span class="developer">Developer firstname lastname</span></h2>
+
+<form>
+    <label>ranking: </label> <input class="number" type="number" name="ranking" value="15"  />
+    <label>market cap in billions</label> 
+      <select name="marketCapComparison">
+        <option value="gt">greater than</option>
+        <option value="lt">less than</option>        
+      </select>      
+     &nbsp;
+    <input class="number" type="number" step="0.01" name="marketCap" value="0" />
+    <input type="submit" value="query" />
+ </form>
+<br />
+<table>
+  <tr>
+    <th>rank</th>
+    <th>symbol</th>
+    <th>company</th>
+    <th>quant</th>
+    <th>sa authors</th>
+    <th>wall street</th>
+    <th>market cap</th>
+  </tr>
+
+  
+    <tr class="">
+      <td>1</td>
+      <td>IQ</td>
+      <td>iQIYI| Inc.</td>
+      <td class="number">4.99</td>
+      <td class="number">4.00</td>
+      <td class="number">3.95</td>
+      <td class="number">6.42550</td>
+  </tr>
+  <tr class="">
+      <td>2</td>
+      <td>NGL</td>
+      <td>NGL Energy Partners LP</td>
+      <td class="number">4.99</td>
+      <td class="number">3.00</td>
+      <td class="number">2.33</td>
+      <td class="number">0.36770</td>
+  </tr>
+  <tr class="">
+      <td>3</td>
+      <td>PMTS</td>
+      <td>CPI Card Group Inc.</td>
+      <td class="number">4.99</td>
+      <td class="number">3.00</td>
+      <td class="number">5.00</td>
+      <td class="number">0.46261</td>
+  </tr>
+  <tr class="">
+      <td>4</td>
+      <td>TRMD</td>
+      <td>TORM plc</td>
+      <td class="number">4.99</td>
+      <td class="number">3.00</td>
+      <td class="number">5.00</td>
+      <td class="number">2.82250</td>
+  </tr>
+  <tr class="">
+      <td>5</td>
+      <td>AMAM</td>
+      <td>Ambrx Biopharma Inc.</td>
+      <td class="number">4.99</td>
+      <td class="number">3.00</td>
+      <td class="number">4.33</td>
+      <td class="number">0.49305</td>
+  </tr>
+  <tr class="">
+      <td>6</td>
+      <td>BWMN</td>
+      <td>Bowman Consulting Group Ltd.</td>
+      <td class="number">4.99</td>
+      <td class="number">0.00</td>
+      <td class="number">5.00</td>
+      <td class="number">0.37086</td>
+  </tr>
+  <tr class="high-light">
+      <td>7</td>
+      <td>MPC</td>
+      <td>Marathon Petroleum Corporation</td>
+      <td class="number">4.99</td>
+      <td class="number">4.00</td>
+      <td class="number">4.33</td>
+      <td class="number">54.61143</td>
+  </tr>
+  <tr class="">
+      <td>8</td>
+      <td>DLAKY</td>
+      <td>Deutsche Lufthansa AG</td>
+      <td class="number">4.98</td>
+      <td class="number">3.00</td>
+      <td class="number">3.00</td>
+      <td class="number">12.12060</td>
+  </tr>
+  <tr class="">
+      <td>9</td>
+      <td>ALGM</td>
+      <td>Allegro MicroSystems| Inc.</td>
+      <td class="number">4.98</td>
+      <td class="number">2.50</td>
+      <td class="number">4.66</td>
+      <td class="number">8.63702</td>
+  </tr>
+  <tr class="">
+      <td>10</td>
+      <td>YEXT</td>
+      <td>Yext| Inc.</td>
+      <td class="number">4.98</td>
+      <td class="number">4.00</td>
+      <td class="number">3.00</td>
+      <td class="number">1.12181</td>
+  </tr>
+  <tr class="high-light-red">
+      <td>11</td>
+      <td>CDTX</td>
+      <td>Cidara Therapeutics| Inc.</td>
+      <td class="number">4.98</td>
+      <td class="number">3.50</td>
+      <td class="number">4.33</td>
+      <td class="number">0.14728</td>
+  </tr>
+  <tr class="">
+      <td>12</td>
+      <td>RYCEY</td>
+      <td>Rolls-Royce Holdings plc</td>
+      <td class="number">4.98</td>
+      <td class="number">4.50</td>
+      <td class="number">4.00</td>
+      <td class="number">14.26784</td>
+  </tr>
+  <tr class="">
+      <td>13</td>
+      <td>TNK</td>
+      <td>Teekay Tankers Ltd.</td>
+      <td class="number">4.98</td>
+      <td class="number">4.00</td>
+      <td class="number">4.50</td>
+      <td class="number">1.38946</td>
+  </tr>
+  <tr class="">
+      <td>14</td>
+      <td>PARR</td>
+      <td>Par Pacific Holdings| Inc.</td>
+      <td class="number">4.98</td>
+      <td class="number">3.00</td>
+      <td class="number">3.71</td>
+      <td class="number">1.61863</td>
+  </tr>
+  <tr class="high-light">
+      <td>15</td>
+      <td>DTEGY</td>
+      <td>Deutsche Telekom AG</td>
+      <td class="number">4.97</td>
+      <td class="number">4.00</td>
+      <td class="number">4.50</td>
+      <td class="number">114.00000</td>
+  </tr>
+  
+</table>
+</body>
+</html>
