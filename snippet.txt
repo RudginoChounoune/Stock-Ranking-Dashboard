@@ -1,0 +1,8 @@
+  <!--
+        <label>market cap in billions</label>
+        <select name="marketCapComparison">
+        <option value="gt">greater than</option>
+        <option value="lt">less than</option>        
+      </select> &nbsp;
+        <input class="number" type="number" step="0.01" name="marketCap" value="0" />
+-->
